@@ -33,7 +33,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 - [x] Navigate to the root of the project with your command line.
 - [x] Run `npm install` to download the dependencies listed in the `package.json` file.
 - [x] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to the URL indicated in the output of the `npm start` command.
+- [x] Navigate Chrome to the URL indicated in the output of the `npm start` command.
 
 ### B - Project Requirements
 
@@ -83,4 +83,4 @@ Event listeners are tools developers use that allows the console to select, use,
 4. Why would we convert a NodeList into an Array?
 Converting a NodeList into an Array is paramount in code because it allows for ease of access (to call specific items) especially when working with large data sets.
 5. What is a component?
-A component is a single modular piece of code made up of HTML, CSS, and Js that is reusable and can stand alone. It is a valuable to a developer because to helps to ensure DRY code.
+A component is a single modular piece of code made up of HTML, CSS, and Js that is reusable and can stand alone. It is valuable to a developer because it helps to ensure neater code and allows the repeated uses of similar items without having to rewrite large chunks over and over (DRY). 

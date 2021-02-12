@@ -7,8 +7,9 @@ const Header = (title, date, temp) => {
   //
 
     let implementation = document.getElementById ('.header');
-      implementation.appendChild('.date', ${date});
-      implementation.appendChild( '.temp', ${temp});
+      implementation.appendChild.date = date;
+      implementation.appendChild.h1.textContent= title ("title");
+      implementation.appendChild.temp= temp;
 
 
   
