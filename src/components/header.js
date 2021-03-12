@@ -11,8 +11,22 @@ const Header = (title, date, temp) => {
       implementation.appendChild.h1.textContent= title ("title");
       implementation.appendChild.temp= temp;
 
+const ltHeader = document.createElement("div");
+ltHeader.classList.add("header");
+const ltDate = document.createElement("span");
+ltDate.classList.add("date");
+const ltTitle = document.createElement("h1");
+ltTitle.textContent= title;
+const ltTemp = document.createElement("span");
+ltTemp.classList.add("temp");
 
-  
+
+
+
+implementation.appendChild(ltHeader);
+implementation.appendChild(ltDate);
+implementation.appendChild(ltTitle);
+implementation.appendChild(ltTemp);  
 
   return implementation;
 }
